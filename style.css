@@ -1,0 +1,272 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    height: auto;
+    width: 1280px;
+}
+
+header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    background-color: #F9E0AE;
+}
+
+img {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin-right: 50px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+button {
+    width: 150px;
+    height: 39px;
+    font-size: 20px;
+    background-color: #C24914;
+    border-radius: 10px;
+    border-color: #C24914;
+    color: white;
+}
+
+.block_one h1 {
+    margin: 0;
+    margin-top: 76px;
+    margin-left: 120px;
+    font-size: 48pt;
+}
+
+.block_one p {
+    color: #8a8787;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 120px;
+}
+
+.block_one--button button {
+    position: relative;
+    margin-top: 20px;
+    width: 200px;
+    height: 44px;
+    font-size: 20px;
+    left: 120px;
+    color: white;
+    background-color: #682C0E;
+    border-color: #C24914;
+    border-radius: 10px;
+}
+
+.block_one-foto {
+    width: 487px;
+    height: 487px;
+    position: relative;
+    float: right;
+    bottom: 290px;
+    right: 110px;
+}
+
+.block_two-foto {
+    position: relative;
+    top: 270px;
+    float: left;
+    left: 80px;
+}
+
+.block_two h1 {
+    position: relative;
+    float: right;
+    left: 350px;
+    bottom: 100px;
+    font-size: 48pt;
+}
+
+.block_two--text {
+    position: relative;
+    float: right;
+    left: 650px;
+    top: 120px;
+}
+
+.block_three h1 {
+    margin: 0;
+    margin-top: 900px;
+    margin-left: 110px;
+    font-size: 38pt;
+}
+
+.block_three-foto {
+    width: 439.31px;
+    height: 292.64px;
+    position: relative;
+    float: right;
+    bottom: 250px;
+    right: 140px;
+}
+
+.form {
+    position: relative;
+    width: 1080px;
+    height: 140px;
+    margin-left: 50px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #F9E0AE;
+    left: 30px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.form input {
+    position: relative;
+    width: 300px;
+    height: 63px;
+    font-size: 20px;
+    top: 40px;
+    justify-content: center;
+}
+
+.form button {
+    position: relative;
+    bottom: 25px;
+    left: 470px;
+    width: 300px;
+    height: 63px;
+    font-size: 20px;
+    background-color: #C24914;
+}
+
+.block_four {
+    position: relative;
+    display: inline-block;
+}
+
+.block_four h1 {
+    position: absolute;
+    left: 150px;
+    font-size: 32pt;
+    top: 20px;
+}
+
+.block_four p {
+    position: absolute;
+    left: 120px;
+    top: 170px;
+    font-size: 20px;
+    color: #8a8787;
+}
+
+.block_four img {
+    width: 1117px;
+    height: 780px;
+    position: relative;
+    float: right;
+    left: 100px;
+}
+
+.block_four button {
+    position: absolute;
+    width: 273px;
+    height: 54px;
+    background-color: #FC8621;
+    color: white;
+    border-radius: 5px;
+    left: 200px;
+    top: 250px;
+    border-color: #FC8621;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    background-color: #F9E0AE;
+    height: 442px;
+    width: 1280px;
+    color: #8191A6;
+}
+
+footer img {
+    position: relative;
+    top: 80px;
+    margin-left: 120px;
+}
+
+.footer__left {
+    position: relative;
+    top: 10px;
+    left: 450px;
+    font-size: 20px;
+    margin-right: 0 auto;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer__left img {
+    margin-right: 15px;
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    right: 150px;
+    top: 50px;
+}
+
+.footer__center {
+    position: relative;
+    left: 700px;
+    top: -15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer__center li {
+    position: relative;
+    left: -15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer_right {
+    position: relative;
+    left: 950px;
+    bottom: 160px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer_right li {
+    position: relative;
+    list-style-type: none;
+    left: -40px;
+}
+
+.footer_right p {
+    position: relative;
+    top: 100px;
+    right: 420px;
+}
